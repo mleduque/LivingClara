@@ -1,0 +1,14 @@
+// ============================================
+// bdclara.baf - 看到玩家后头顶显示文本
+// ============================================
+
+IF
+  See([PC])                        // 看到任意玩家角色
+  !Allegiance(Myself,ENEMY)        // 且不是敌对状态（可选，防止敌人也喊冤）
+  Global("YFClaraSawPC","LOCALS",0) // 只触发一次（LOCALS = 局部变量，仅该CRE自己用）
+THEN
+  RESPONSE #100
+    SetGlobal("YFClaraSawPC","LOCALS",1)
+	SmallWait(5)
+    DisplayStringHead(Myself,@110)
+END

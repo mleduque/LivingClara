@@ -1,27 +1,44 @@
 // Clara is summoned via Fate Spirit. This code is taken directly from the game.
 // #4 means that Clara should be placed right after the first 4 lines.
 
+//EXTEND_TOP FATESP 6 #4
+//+ ~!InMyArea("YF_Clara")
+//	Global("YF_ClaraSummoned","GLOBAL",0)
+//	!Global("OHH_HexxatSummoned","GLOBAL",1)
+//	!Global("OHH_HexxatSummoned","GLOBAL",2)
+//	!InMyArea("hexxat")
+//	!InParty("hexxat")~ + @0 /*Bring me Clara, the human shadowdancer.*/
+//DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
+//Wait(2) 
+//CreateCreature("YF_Cla25",[1999.1228],0) 
+//SetGlobal("YF_ClaraSummoned","GLOBAL",1)
+//SetGlobal("SPRITE_IS_DEADHexxat","GLOBAL",1)~ GOTO 8
+//END
+//
+//EXTEND_TOP FATESP 6 #4
+//IF ~!InMyArea("YF_Clara")
+//	Global("YF_ClaraSummoned","GLOBAL",0)
+//	OR(4)
+//		Global("OHH_HexxatSummoned","GLOBAL",1) 
+//		Global("OHH_HexxatSummoned","GLOBAL",2) 
+//		InMyArea("hexxat")
+//		InParty("hexxat")~
+//THEN REPLY @0 GOTO 10
+//END
+
 EXTEND_TOP FATESP 6 #4
 + ~!InMyArea("YF_Clara")
-	Global("YF_ClaraSummoned","GLOBAL",0)
-	!Global("OHH_HexxatSummoned","GLOBAL",1)
-	!Global("OHH_HexxatSummoned","GLOBAL",2)
-	!InMyArea("hexxat")
-	!InParty("hexxat")~ + @0 /*Bring me Clara, the human shadowdancer.*/
+	Global("YF_ClaraSummoned","GLOBAL",0)~ + @0 /*Bring me Clara, the human shadowdancer.*/
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2) 
 CreateCreature("YF_Cla25",[1999.1228],0) 
-SetGlobal("YF_ClaraSummoned","GLOBAL",1)~ GOTO 8
+SetGlobal("YF_ClaraSummoned","GLOBAL",1)
+SetGlobal("SPRITE_IS_DEADHexxat","GLOBAL",1)~ GOTO 8
 END
 
 EXTEND_TOP FATESP 6 #4
 IF ~!InMyArea("YF_Clara")
-	Global("YF_ClaraSummoned","GLOBAL",0)
-	OR(4)
-		Global("OHH_HexxatSummoned","GLOBAL",1) 
-		Global("OHH_HexxatSummoned","GLOBAL",2) 
-		InMyArea("hexxat")
-		InParty("hexxat")~
+	Global("YF_ClaraSummoned","GLOBAL",0)~
 THEN REPLY @0 GOTO 10
 END
 
