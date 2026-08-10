@@ -27,7 +27,8 @@
 //END
 
 EXTEND_TOP FATESP 6 #4
-+ ~!InMyArea("YF_Clara")
++ ~!Dead("YF_Clara")
+	!InMyArea("YF_Clara")
 	Global("YF_ClaraSummoned","GLOBAL",0)~ + @0 /*Bring me Clara, the human shadowdancer.*/
 DO ~CreateVisualEffect("SPPORTAL",[1999.1228])
 Wait(2) 
