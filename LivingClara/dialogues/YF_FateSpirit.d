@@ -36,10 +36,10 @@ SetGlobal("YF_ClaraSummoned","GLOBAL",1)
 SetGlobal("SPRITE_IS_DEADHexxat","GLOBAL",1)~ GOTO 8
 END
 
-EXTEND_TOP FATESP 6 #4
-IF ~!InMyArea("YF_Clara")
-	Global("YF_ClaraSummoned","GLOBAL",0)~
-THEN REPLY @0 GOTO 10
-END
+//EXTEND_TOP FATESP 6 #4
+//IF ~!InMyArea("YF_Clara")
+//	Global("YF_ClaraSummoned","GLOBAL",0)~
+//THEN REPLY @0 GOTO 10
+//END
 
 //Has to be separate in order to be compatible with EET
