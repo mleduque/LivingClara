@@ -282,7 +282,8 @@ Indeed, when asked the secret of his good fortune by young lords and jealous riv
 
 @108 /*Begin*/ = ~Do NOT allow multiple TOB epilogues: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
 
-@110 = ~No! I won't rot in this place like the rest of them. I'm innocent, I'm telling the truth. Let me go, I beg you.~
+@110 = ~No! I won't rot in this place like the rest of them. I'm innocent, I'm telling the truth.~
+@111 = ~Let me go, I beg you.~
 
 @130 /*Girl Wraith*/ = ~Little Clara~
 

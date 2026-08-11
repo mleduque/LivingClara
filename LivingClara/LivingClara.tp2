@@ -2,7 +2,7 @@ BACKUP ~LivingClara/backup~
 
 AUTHOR ~MephistoSatanDevil~
 
-VERSION ~Version 1.4.2~
+VERSION ~Version 1.4.3~
 
 README ~LivingClara/translations/%LANGUAGE%/readme.txt~ ~LivingClara/readme.md~
 
@@ -680,26 +680,26 @@ PRINT @143 /*Adding new items, new nonsense, new strange abilities...*/
 // ----- Clara 的跨 Mod (Crossmod) 内容 -----
 // 检查游戏中是否存在龙矛围攻的克拉拉角色文件 (bdclara.cre)。
 ACTION_IF FILE_EXISTS_IN_GAME ~bdclara.cre~ THEN BEGIN
-	COMPILE ~%MOD_FOLDER%/scripts/bdclara.baf~
+	COMPILE ~%MOD_FOLDER%/dialogues/bdclara.d~
 	
-	OUTER_SET bdclara_has_existing_script = 0
-	OUTER_SPRINT bdclara_existing_script ""
+	OUTER_SET bdclara_has_existing_dialogue = 0
+	OUTER_SPRINT bdclara_existing_dialogue ""
 
 	COPY_EXISTING ~bdclara.cre~ ~override~
-	    READ_ASCII 0x248 script_name
-		READ_BYTE 0x248 first_char
+	    READ_ASCII 0x2cc dialogue_name
+		READ_BYTE 0x2cc first_char
 		
 		PATCH_IF (first_char != 0) BEGIN
-			SET bdclara_has_existing_script = 1
-			SPRINT bdclara_existing_script "%script_name%"
+			SET bdclara_has_existing_dialogue = 1
+			SPRINT bdclara_existing_dialogue "%dialogue_name%"
 		END
-		PATCH_IF (bdclara_has_existing_script = 0) BEGIN
-			WRITE_ASCII 0x248 ~BDCLARA~ #8	
+		PATCH_IF (bdclara_has_existing_dialogue = 0) BEGIN
+			WRITE_ASCII 0x2cc ~BDCLARA~ #8	
 		END
 	BUT_ONLY
 	
-	ACTION_IF (bdclara_has_existing_script = 1) BEGIN
-		EXTEND_BOTTOM ~%existing_script%.bcs~ ~%MOD_FOLDER%/scripts/bdclara.baf~
+	ACTION_IF (bdclara_has_existing_dialogue = 1) BEGIN
+		PRINT ~Warning: bdclara.cre already has dialogue "%dialogue_name%", skipping to avoid conflict~
 	END
 END
 
@@ -1056,9 +1056,19 @@ COPY_EXISTING ~YF_Clara.cre~ ~override/YF_Clara.cre~
 COPY_EXISTING ~YF_Cla25.cre~ ~override/YF_Cla25.cre~
  WRITE_ASCII 0x34 ~YF_ClarM~ #8 //portraits
  WRITE_ASCII 0x3c ~YF_ClarL~ #8
+	ACTION_IF FILE_EXISTS_IN_GAME ~bdclara.cre~ THEN BEGIN
+		COPY_EXISTING ~bdclara.cre~ ~override/bdclara.cre~
+		WRITE_ASCII 0x34 ~YF_ClarM~ #8 //portraits
+		WRITE_ASCII 0x3c ~YF_ClarL~ #8
+	END
 END
 
 ACTION_IF (%how% = 2) THEN BEGIN
-COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
-COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~ 
+	COPY ~LivingClara/characters/YF_ClarL.bmp~ ~override/OHHEXL.BMP~ 
+	COPY ~LivingClara/characters/YF_ClarM.bmp~ ~override/OHHEXM.BMP~
+	ACTION_IF FILE_EXISTS_IN_GAME ~bdclara.cre~ THEN BEGIN
+		COPY_EXISTING ~bdclara.cre~ ~override/bdclara.cre~
+		WRITE_ASCII 0x34 ~OHHEXM~ #8 //portraits
+		WRITE_ASCII 0x3c ~OHHEXL~ #8
+	END
 END

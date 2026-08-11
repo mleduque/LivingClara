@@ -262,7 +262,8 @@ En effet, lorsqu'on lui demandait le secret de sa bonne fortune par de jeunes se
 
 @108 /*Begin*/ = ~NE PAS autoriser plusieurs épilogues TOB : Si vous installez ce composant, les épilogues AllThingsMazzy remplaceront les épilogues de jeu existants et la plupart des épilogues de mods. Si vous n'installez pas ce composant, le jeu autorisera plusieurs épilogues de PNJ le cas échéant.~
 
-@110 = ~Non ! Je ne vais pas pourrir dans cet endroit comme eux. Je suis innocente, je dis la vérité. Laissez-moi partir, je vous en supplie.~
+@110 = ~Non ! Je ne vais pas pourrir dans cet endroit comme eux. Je suis innocente, je dis la vérité.~
+@111 = ~Laissez-moi partir, je vous en supplie.~
 
 @130 /*Girl Wraith*/ = ~Petite Clara~
 
