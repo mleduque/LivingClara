@@ -277,8 +277,8 @@ THAC0: +3
 
 @108 /*Begin*/ = ~Do NOT allow multiple TOB epiloques: If you install this component, AllThingsMazzy epilogues will override existing game epilogues and most mod epilogues. If you do not install this component, the game will allow multiple NPC epilogues where applicable.~
 
-@110 = ~Нет! Я не собираюсь гнить в этом месте, как они. Я невиновна, я говорю правду.~
-@111 = ~Отпустите меня, умоляю вас.~
+@110 = ~Я не такая, как они. Мою невиновность докажут, и я рано или поздно выберусь отсюда.~
+@111 = ~Я невиновна. Я говорю правду.~
 
 @130 /*Girl Wraith*/ = ~Маленькая Клара~
 
