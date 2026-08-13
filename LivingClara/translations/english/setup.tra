@@ -262,18 +262,18 @@ Area of Effect: 1 creature
 Weight: 0~
 
 
-@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~Anomen returned to the Delryn estate with <CHARNAME> and the two were married in a grand ceremony. Together, the couple worked to rebuild his family's fortunes and luck followed them in every endeavor. Soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
-
-Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen and <CHARNAME>'s direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to have unhappy accidents. Although these coincidences sparked investigations, Lord Delryn's wife stood by him and no evidence of foul play was ever found.
-
-Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved <CHARNAME>. Without her, I would not be the man I am today."~
-
-
-@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~After losing <CHARNAME>, Anomen returned to the Delryn estate and worked hard to rebuild his family's fortunes. Luck followed him in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. Although sometimes harsh, Anomen's judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
-
-Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their minds overnight or simply disappear. Although several investigations were put forth into these incidents, no evidence of wrongdoing on Lord Delryn's part was ever found.
-
-Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to my beloved goddess <CHARNAME>. Without her guidance, I would not be the man I am today."~
+//@98 /*Darkside Anomen Romance Epilogue - player doesn't choose god*/ = ~Anomen returned to the Delryn estate with <CHARNAME> and the two were married in a grand ceremony. Together, the couple worked to rebuild his family's fortunes and luck followed them in every endeavor. Soon the lord had not only erased his father's debts but begun to amass a fortune of his own. However, despite his newfound status, Anomen stayed true to the tenets of his god. Although sometimes harsh, his judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+//
+//Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen and <CHARNAME>'s direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to have unhappy accidents. Although these coincidences sparked investigations, Lord Delryn's wife stood by him and no evidence of foul play was ever found.
+//
+//Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to Helm and to the continuous support of my beloved <CHARNAME>. Without her, I would not be the man I am today."~
+//
+//
+//@99 /*Darkside Anomen Romance Epilogue - player chose god*/ = ~After losing <CHARNAME>, Anomen returned to the Delryn estate and worked hard to rebuild his family's fortunes. Luck followed him in every endeavor and soon the lord had not only erased his father's debts but begun to amass a fortune of his own. Although sometimes harsh, Anomen's judgment was always fair and those who worked for his family knew that their loyalty would be rewarded in kind.
+//
+//Eventually, the young Lord Delryn was offered a position on the Council of Six and while no one officially knew his status, the change in Athkatla's rulership was obvious to all. Under Anomen's direction, the government began doing more to help the common folk and more to combat evil in the world. He was not content to let injustice pass by blindly and those who stood against him tended to change their minds overnight or simply disappear. Although several investigations were put forth into these incidents, no evidence of wrongdoing on Lord Delryn's part was ever found.
+//
+//Indeed, when asked the secret of his good fortune by young lords and jealous rivals, Anomen would only say humbly, "I have been very lucky. It took hard work, aye, to build my family's business into what it is today, but I did not do it by myself. I owe everything to my beloved goddess <CHARNAME>. Without her guidance, I would not be the man I am today."~
 
 
 //Clara's Fireball
