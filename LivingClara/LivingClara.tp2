@@ -962,10 +962,10 @@ REPLACE ~99999~ @82
 // --- Anomen 的结局 ---
 COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano01.2da~ //Married Clara, not dead
 REPLACE ~99999~ @83
-COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano02.2da~ //Darkside Romance Epilogue
-REPLACE ~99999~ @98
-COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano03.2da~ //Darkside Romance God Epilogue
-REPLACE ~99999~ @99
+//COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano02.2da~ //Darkside Romance Epilogue
+//REPLACE ~99999~ @98
+//COPY ~LivingClara/epilogue/YF_Anom.2da~ ~override/YF_Ano03.2da~ //Darkside Romance God Epilogue
+//REPLACE ~99999~ @99
 
 //BCaesar and Ratatoskr's Personal Rest Check Files (For all of them mods)
 PRINT @155 /*RestCheck Files: to help with all the joys of mod compatibility.*/
