@@ -731,7 +731,7 @@
 @644 /*Dorn*/ = ~Aucune de mes relations ne se termine bien.~
 @645 /*Clara -si romance CN-Dorn*/ = ~Tu as l'air plutôt amical avec <CHARNAME>. Comment penses-tu que cela va finir ?~
 //@6450 /*Clara -si romance HD*/ = ~Tu as l'air plutôt amical avec Haer'Dalis. Comment penses-tu que cela va finir ?~
-@646 /Dorn -si romance CN/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~ ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
+@646 /*Dorn -si romance CN*/ = ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~ ~Avec ma mort ou celle de <CHARNAME>, comme toujours.~
 //@6460 /*Dorn -si romance HD*/ = ~Avec ma mort ou celle du tieffelin, comme toujours.~
 @647 /*Clara -si romance CN-Dorn*/ = ~Mais toi et <CHARNAME> êtes ensemble et cela semble très bien se passer.~
 //@6470 /*Clara -si romance HD*/ = ~Mais toi et Haer'Dalis êtes ensemble et cela semble très bien se passer... Surtout au lit.~
