@@ -234,7 +234,7 @@
 @221 /*Rose*/ = ~"Danse Avec Les Morts." ...Est-ce que tu as rendu visite à des nécromanciens ? Je ne veux pas que des sorciers en colère viennent après moi.~
 @222 /*Rose*/ = ~"Connais Ma Perte." ...J'espère que tu as laissé une offrande si tu as vraiment pillé des tombes.~
 @223 /*Rose*/ = ~"Ici Tomba Kiel la Tueuse de Légions." Ça a l'air plutôt macabre.~
-@224 /Rose/ = ~Le journal de bord de Balduran... Tu es certain, <CHARNAME> ? Avec un trésor comme celui-ci, ma bibliothèque sera la plus populaire d'Amn...~ ~Le journal de bord de Balduran... Tu es certaine, <CHARNAME> ? Avec un trésor comme celui-ci, ma bibliothèque sera la plus populaire d'Amn....~
+@224 /*Rose*/ = ~Le journal de bord de Balduran... Tu es certain, <CHARNAME> ? Avec un trésor comme celui-ci, ma bibliothèque sera la plus populaire d'Amn...~ ~Le journal de bord de Balduran... Tu es certaine, <CHARNAME> ? Avec un trésor comme celui-ci, ma bibliothèque sera la plus populaire d'Amn....~
 @225 /*Rose*/ = ~Les Recettes et Méditations d'un Certain Dradeel de Téthyr, anciennement Une Délicieuse Brioche Illumine la Journée de Quiconque... Ça a l'air charmant. Je vais peut-être le garder pour moi.~
 @226 /*Rose*/ = ~Le Livre de Kaza... Ce volume doit valoir une fortune. Les pages sont si vieilles... Je promets que ce livre aura une place d'honneur.~
 @227 /*Rose*/ = ~Livre de Construction de Golems... Un sorcier va voler ça, retiens mes mots. Mais au moins je l'aurai pour un temps.~
@@ -253,7 +253,7 @@
 
 @239 /*Rose*/ = ~Le Livre du Roi Strohm III... Cela devrait être dans un musée. Mais je ferai de mon mieux.~
 @2400 /*Rose*/ = ~Oh bien, un autre des Bestiaires d'Elminster. Les enfants aiment regarder les images de celui-ci.~
-@240 /Rose/ = ~Écologies d'Elminster : Appendice IIIa... Oh, un bestiaire. Cela sera populaire auprès des aventuriers. Je suppose que tu l'as lu attentivement ?~ ~Écologies d'Elminster : Appendice IIIa... Oh, un bestiaire. Cela sera populaire auprès des aventuriers. Je suppose que tu l'as lue attentivement ?~
+@240 /*Rose*/ = ~Écologies d'Elminster : Appendice IIIa... Oh, un bestiaire. Cela sera populaire auprès des aventuriers. Je suppose que tu l'as lu attentivement ?~ ~Écologies d'Elminster : Appendice IIIa... Oh, un bestiaire. Cela sera populaire auprès des aventuriers. Je suppose que tu l'as lue attentivement ?~
 @241 /*Rose*/ = ~Une note manuscrite... tu ramasses vraiment tout, n'est-ce pas ?~
 @242 /*Rose*/ = ~Des gribouillis fous, charmant. Les bardes devraient apprécier.~
 @243 /*Rose*/ = ~Je me demande qui est ce Lum. Cette note est... assez unique.~
