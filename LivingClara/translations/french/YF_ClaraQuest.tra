@@ -64,7 +64,7 @@
 @42 /*Rose*/ = ~Tu as toujours été une survivante. Mais dans ce cas, j'accepte. Apporte-moi juste les livres que tu trouves et je commencerai ma bibliothèque.~
 @43 /*Rose*/ = ~En fait, maintenant que j'y pense, je prendrai aussi d'autres papiers et documents. Je sais que les érudits ici paieront pour accéder à des articles plus exclusifs et ça m'aidera à garder mes portes ouvertes à tous les autres.~
 @44 /*Clara*/ = ~Tu es un vrai trésor, Rose. Je suis sûre que <CHARNAME> ne verra pas d'inconvénient à te donner quelques-unes des notes diverses que nous avons ramassées en chemin. Honnêtement, je ne sais pas pourquoi il les garde.~ ~Tu es un vrai trésor, Rose. Je suis sûre que <CHARNAME> ne verra pas d'inconvénient à te donner quelques-unes des notes diverses que nous avons ramassées en chemin. Honnêtement, je ne sais pas pourquoi elle les garde.~
-@45 /Rose/ = ~Merci, Clara. T'es un bon ami.~ ~Merci, Clara. T'es une bonne amie.~
+@45 /*Rose*/ = ~Merci, Clara. T'es un bon ami.~ ~Merci, Clara. T'es une bonne amie.~
 @46 /*Rose*/ = ~Toi aussi, <CHARNAME>. N'hésite pas à passer quand tu veux.~
 
 //Dialogue Infini sur les Livres
